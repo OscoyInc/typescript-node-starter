@@ -1,14 +1,15 @@
 {
-    "author": "maipal-oscoy",
-    "version": "0.0.1",
-    "type": "module",
-    "devDependencies": {
-        "@types/node": "^20.0.0",
-        "prettier": "^2.8.8",
-        "typescript": "^5.0.4"
-    },
-    "main": "dist/index.js",
-    "scripts": {
-        "build": "tsc"
-    }
+	"author": "maipal-oscoy",
+	"version": "0.0.1",
+	"type": "module",
+	"devDependencies": {
+		"@types/node": "^20.0.0",
+		"prettier": "^2.8.8",
+		"typescript": "^5.0.4"
+	},
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "tsc",
+		"format": "prettier --write ."
+	}
 }
