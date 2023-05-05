@@ -1,5 +1,13 @@
 {
     "compilerOptions": {
-        "module": "ESNext"
+        "declaration": true,
+        "declarationMap": true,
+        "esModuleInterop": true,
+        "skipDefaultLibCheck": true,
+        "sourceMap": true,
+        "outDir": "dist",
+        "strict": true,
+        "module": "ESNext",
+        "target": "ES2021"
     }
 }
